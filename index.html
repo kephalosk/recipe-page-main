@@ -26,112 +26,140 @@
           src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
       }
 
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-    }
+      @media (max-width: 450px) {
+          img {
+              border-radius: 0;
+              height: auto;
+              margin-left: -30px;
+              width: calc(100% + 60px);
+          }
 
-    .attribution a {
-        color: hsl(228, 45%, 44%);
-    }
+          main {
+              background-color: white;
+              border-radius: 0;
+              max-width: 450px;
+              margin-bottom: 0;
+              margin-top: 0;
+              padding: 0 30px;
+              width: 100%;
+          }
+      }
 
-    .leftTableColumn {
-    }
+      @media (min-width: 451px) {
+          img {
+              border-radius: 15px;
+              height: auto;
+              width: 100%;
+          }
 
-    body {
-        align-items: center;
-        background-color: hsl(30, 54%, 90%);
-        color: hsl(30, 10%, 34%);
-        display: flex;
-        flex-direction: column;
-        font-family: Outfit,sans-serif;
-        justify-content: center;
-    }
+          main {
+              background-color: white;
+              border-radius: 30px;
+              max-width: 650px;
+              margin-bottom: 120px;
+              margin-top: 120px;
+              padding: 40px;
+              width: 100%;
+          }
+      }
 
-    h1 {
-        color: hsl(24, 5%, 18%);
-    }
+      .attribution {
+          font-size: 11px;
+          text-align: center;
+      }
 
-    h1,h2 {
-        font-family: "Young Serif",serif;
-    }
+      .attribution a {
+          color: hsl(228, 45%, 44%);
+      }
 
-    h2 {
-        color: hsl(14, 45%, 36%);
-    }
+      .leftTableColumn {
+      }
 
-    header section {
-        background-color: hsl(330, 100%, 98%);
-        border-radius: 15px;
-        color: hsl(30, 10%, 34%);
-        padding: 25px 35px 1px;
-    }
+      * {
+          box-sizing: border-box;
+      }
 
-    header section h2 {
-        color: hsl(332, 51%, 32%);
-        font-family: Outfit,sans-serif;
-        margin-top: 0;
-    }
+      body {
+          align-items: center;
+          background-color: hsl(30, 54%, 90%);
+          margin: 0;
+          color: hsl(30, 10%, 34%);
+          display: flex;
+          flex-direction: column;
+          font-family: Outfit,sans-serif;
+          justify-content: center;
+      }
 
-    header section li::marker {
-        color: hsl(332, 51%, 32%);
-    }
+      h1 {
+          color: hsl(24, 5%, 18%);
+      }
 
-    header p {
-        padding-bottom: 15px;
-    }
+      h1,h2 {
+          font-family: "Young Serif",serif;
+      }
 
-    hr {
-        background: hsl(30, 18%, 87%);
-        border: 0;
-        height: 1px;
-    }
+      h2 {
+          color: hsl(14, 45%, 36%);
+      }
 
-    img {
-        border-radius: 15px;
-    }
+      header section {
+          background-color: hsl(330, 100%, 98%);
+          border-radius: 15px;
+          color: hsl(30, 10%, 34%);
+          padding: 25px 35px 1px;
+      }
 
-    li {
-        padding-bottom: 15px;
-        padding-left: 20px;
-    }
+      header section h2 {
+          color: hsl(332, 51%, 32%);
+          font-family: Outfit,sans-serif;
+          margin-top: 0;
+      }
 
-    li::marker {
-        color: hsl(14, 45%, 36%);
-        font-weight: bold;
-    }
+      header section li::marker {
+          color: hsl(332, 51%, 32%);
+      }
 
-    main {
-        align-self: center;
-        background-color: white;
-        border-radius: 30px;
-        max-width: 650px;
-        margin-bottom: 120px;
-        margin-top: 120px;
-        padding: 40px;
-    }
+      header p {
+          padding-bottom: 15px;
+      }
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px auto;
-    }
+      hr {
+          background: hsl(30, 18%, 87%);
+          border: 0;
+          height: 1px;
+      }
 
-    td strong {
-        color: hsl(14, 45%, 36%);
-    }
+      li {
+          padding-bottom: 15px;
+          padding-left: 20px;
+      }
 
-    td {
-        padding: 15px 0px 15px 30px;
-    }
+      li::marker {
+          color: hsl(14, 45%, 36%);
+          font-weight: bold;
+      }
 
-    tr {
-        border-bottom: 1px solid hsl(30, 18%, 87%);
-    }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 20px auto;
+      }
 
-    tr:last-child {
-        border-bottom: none;
-    }
+      td strong {
+          color: hsl(14, 45%, 36%);
+      }
+
+      td {
+          padding: 15px 0px 15px 30px;
+      }
+
+      tr {
+          border-bottom: 1px solid hsl(30, 18%, 87%);
+      }
+
+      tr:last-child {
+          border-bottom: none;
+      }
   </style>
 </head>
 <body>
