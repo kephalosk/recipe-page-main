@@ -66,7 +66,7 @@ I learned to integrate custom fonts from the asset folder:
 ```css
 @font-face {
   font-family: "Outfit";
-  src: url('assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+  src: url('assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
   font-weight: bold;
 }
 ```
