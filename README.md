@@ -29,7 +29,7 @@ Mobile
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/kephalosk/recipe-page-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://kephalosk.github.io/recipe-page-main/)
 
 ## My process
 
